@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 2px solid #32b9cd;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b062;
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+}
+
+.banner .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container p {
+    margin: 0;
+    color: white;
+    font-size: 32px;
+    width: 200px;
+}
+
+.banner .container p span {
+    font-weight: bold;
+}
+
+.social {
+    height: 500px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.social .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box img {
+    width: 100px;
+}
+
+.box h4 {
+    margin-bottom: 0;
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer .container h4 {
+    margin-bottom: 0;
+}
+
+.login {
+    width: 100%;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+}
+
+.login .container {
+    background-color: #dcdcdc;
+    color: #ED145B;
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.campo {
+    width: 80%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.campo input {
+    text-align: center;
+    border: 3px solid #32b9cd;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+
+.botao {
+    background-color: #ED145B;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.cadastro {
+    width: 100%;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+}
+
+.cadastro .container {
+    background-color: #dcdcdc;
+    color: #ED145B;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
