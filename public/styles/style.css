@@ -166,6 +166,10 @@ body {
     padding-bottom: 30px;
 }
 
+.campo span {
+    font-weight: bold;
+}
+
 .campo input {
     text-align: center;
     border: 3px solid #32b9cd;
